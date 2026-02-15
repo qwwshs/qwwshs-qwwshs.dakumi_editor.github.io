@@ -1,0 +1,4 @@
+dev.bat
+build.bat
+node_modules
+docs/.vitepress/cache

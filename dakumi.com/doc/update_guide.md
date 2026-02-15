@@ -1,0 +1,21 @@
+# 更新指南
+
+# 更新至v0.5.0
+
+因为v0.5.0更改了谱面以及其他的文件的保存路径，你需要通过以下步骤更新
+
+1. 进入dakumi点击右上角的```目录```将目录里的文件夹复制到与dakumi同目录的```users```文件夹
+
+2. 将每张d3格式的谱面重新拖入该歌曲中，dakumi将对谱面进行转格式
+
+3. 将hit的音频放入user文件夹中（可选）
+
+4. 将ui中的图片改成以下格式：(可选)
+
+| note类型 |  图片名称 |
+|----|----|
+| note | note.png |
+| hold头 | holdHead.png |
+| hold身 | holdBody.png |
+| hold尾 | holdTail.png |
+| wipe | wipe.png |

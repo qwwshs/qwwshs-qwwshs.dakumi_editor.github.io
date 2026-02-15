@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev dakumi.com",
+    "docs:build": "vitepress build dakumi.com",
+    "docs:preview": "vitepress preview dakumi.com"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
