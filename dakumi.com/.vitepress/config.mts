@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "dakumi",
   description: "dakumi",
+  base: '/dakumi_editor.github.io/',
   head: [  
     // 添加 favicon  
     ['link', { rel: 'icon', href: '/icon.ico' }],  
