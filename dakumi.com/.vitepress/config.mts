@@ -45,7 +45,7 @@ export default defineConfig({
       {
         text: '关于',
         items: [
-          { text: '关于', link: 'doc/about' },
+          { text: '关于', link: 'doc/关于' },
         ]
       },
       {
