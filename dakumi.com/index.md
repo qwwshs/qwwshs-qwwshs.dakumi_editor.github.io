@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快速上手
-      link: doc/get_started_quickly
+      link: doc/快速上手
     - theme: alt
       text: 下载使用
       link: https://github.com/qwwshs/dakumi/releases/latest
