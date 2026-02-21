@@ -20,8 +20,6 @@ export default defineConfig({
 
     sidebar: [
       {
-        collapsible: true,
-        collapsed:true,
         text: '用户文档',
         items: [
           { text: '快速上手', link: 'doc/快速上手' },
