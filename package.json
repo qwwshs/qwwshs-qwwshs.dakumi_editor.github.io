@@ -5,6 +5,8 @@
     "docs:preview": "vitepress preview dakumi.com"
   },
   "devDependencies": {
-    "vitepress": "^1.6.4"
+    "flexsearch": "^0.7.43",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-search": "^1.0.4-alpha.22"
   }
 }

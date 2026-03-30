@@ -1,4 +1,15 @@
+import { SearchPlugin } from "vitepress-plugin-search";
 import { defineConfig } from 'vitepress'
+
+//default options
+var options = {
+  previewLength: 62,
+  buttonLabel: "Search",
+  placeholder: "Search docs",
+  allow: [],
+  ignore: [],
+};
+
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -8,6 +19,7 @@ export default defineConfig({
     // 添加 favicon  
     ['link', { rel: 'icon', href: '/icon.ico' }],  
   ],
+  plugins: [SearchPlugin(options)],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
