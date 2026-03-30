@@ -10,6 +10,9 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
     logo: "/icon.png",
     nav: [
       { text: '主页', link: '/' },
